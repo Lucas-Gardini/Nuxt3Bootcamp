@@ -1,8 +1,8 @@
 <template>
-	<div>
+	<NuxtLayout name="custom">
 		<Html lang="en-US">
 			<Head>
-				<Title>Restaurantly</Title>
+				<Title>TOP 50 Restaurants</Title>
 				<Meta name="description" content="My page is cool" />
 				<Link
 					rel="preload"
@@ -11,7 +11,7 @@
 				/>
 			</Head>
 		</Html>
-		<h1>Welcome to Restaurantly</h1>
-		<NuxtLink href="/restaurants">Go to restaurants</NuxtLink>
-	</div>
+
+		<RestaurantTable />
+	</NuxtLayout>
 </template>
