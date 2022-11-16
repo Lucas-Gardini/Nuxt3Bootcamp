@@ -6,7 +6,6 @@ if (!cookie.value) {
 	cookie.value = "São Paulo";
 }
 
-// https://api.openweathermap.org/data/2.5/weather?q=Berlin&APPID=558c1e9d9f40efc98891afdbcf9e5182
 const search = ref(cookie.value);
 const input = ref("");
 const background = ref("");
